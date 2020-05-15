@@ -1,0 +1,29 @@
+<html>
+     <script src='https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js'>
+  </script>
+  <body>
+  <h1 class="titles"> FILTER YOUR IMAGES! </h1>
+     <div style="text-align:center">
+  <canvas id="can" style="background-color:#F7F6F7;"></canvas>
+    </div>
+     <p>  <div style="text-align:center">
+  <h2>Load Image:</h2><h2>
+  <input type="file" id="up1" multiple="false" class="btn" accept="image/*" onchange="upload()">
+ 
+ <h2>Choose filter:</h2>  
+  <input type="button" value="Grayscale" id="bt1" class="btn"onclick="doGray()">
+   <input type="button" value="Red" id="bt2" class="btn"onclick="doRed()">
+  <input type="button" value="Rainbow" id="bt4" class="btn"onclick="doRainbow()">
+  <input type="button" value="Blur" id="bt5" class="btn"onclick="doblur()">
+    <input type="button" value="Sepia" id="bt6" class="btn"onclick="dosepia()">
+   <input type="button" value="Reset" id="bt3" class="btn"onclick="reset()">
+       
+ <input type="button" value="Download" class="btn" onclick="download()">
+       </p>   </div>
+  <div style="text-align:center">
+   <h2>Border:</h2> 
+       
+<input type="color" id="ch1" value="white" class="btn"onchange="doborder()" >
+  </div>
+         </body>
+    </html>

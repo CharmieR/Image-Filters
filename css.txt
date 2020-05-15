@@ -1,0 +1,45 @@
+canvas
+{
+  width: 300pt;
+  padding: 5pt;
+  margin: 10pt;
+  border: 10px solid gray;
+  font-size:12pt;
+
+ 
+}
+
+body
+{  
+background-color:#f9cdad;
+background:url("https://wallpaperaccess.com/full/539156.jpg");
+   
+}
+
+.titles
+{
+  text-align:center;
+  color:white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2
+{
+  color:white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.btn
+{
+  background-color: #ECD9D9;
+  color: #390808;
+  padding: 13px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #EE5773;
+}
