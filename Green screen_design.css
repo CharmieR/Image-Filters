@@ -1,0 +1,77 @@
+body
+{
+  background-image: url("https://wallpaperstock.net/green-gradient-background_wallpapers_43896_1920x1440.jpg"); 	
+}
+
+canvas
+{
+  width: 30%;
+  padding: 5pt;
+  margin: 10pt;
+  border: 10px solid gray;
+  font-size:12pt;
+}
+
+/* .title
+{
+	font-size: 2vw;
+	margin: 0;
+	padding: 0;
+  text-align:center;
+  text-transform:uppercase;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#0D236C;
+  
+} */
+
+.sec
+{ color:white;
+  padding-left: 50px;
+  font-family: "Arial", Courier, monospace;
+  font-size: 20px;
+  margin-left: 3%;  
+  text-align:center;
+}
+
+.descrip
+{
+  padding-left: 20px;
+  color:#0D236C;
+  font-size:30px;
+}
+
+h1
+{
+   color:#0D236C;
+   text-align:center; 
+}
+
+.btn
+{
+ background-color: #ECD9D9;
+  color: #390808;
+  padding: 13px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  width:30%;
+  
+}
+
+.btn:hover {
+  background-color: #EE5773;
+}
+
+@media screen and (max-width:500px) 
+{
+ .descrip
+  {
+    font-size:10px;
+  }
+}
+
+.container-fluid:
+{
+  width:10%;
+}
